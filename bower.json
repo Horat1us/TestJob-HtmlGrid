@@ -1,0 +1,21 @@
+{
+  "name": "TestJob-HtmlGrid",
+  "homepage": "https://github.com/Horat1us/TestJob-HtmlGrid",
+  "authors": [
+    "horat1us <reclamme@gmail.com>"
+  ],
+  "description": "",
+  "main": "index.php",
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "^3.3.7"
+  }
+}

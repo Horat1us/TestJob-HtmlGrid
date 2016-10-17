@@ -1,7 +1,16 @@
 # TestJob-HtmlGrid
-One of test jobs offered to me
+One of test jobs offered to me.   
+It is built with using **php7**, **jQuery**, **Bootstrap** and **AJAX** for loading templates.
 
-Developer: [Alexander Letnikow](mailto:reclamme@gmail.com)
+Developer: [Alexander Letnikow](mailto:reclamme@gmail.com)  
+[Demo Version](http://tj-htmlgrid.horatius.pro/)
+
+#### Installing
+```bash
+git clone https://github.com/Horat1us/TestJob-HtmlGrid.git
+cd TestJob-HtmlGrid
+bower install
+```
 
 I was offered to do a little function. This function must generated GRID system using HTML (div or tables, but not images).
 ###Input
@@ -33,7 +42,7 @@ For example, array:
 <?php
 [
   [
-      'text' => 'Текст красного цвета',
+      'text' => 'Red text', // "Текст зеленого цвета" on sample
       'cells' => '1,2,4,5',
       'align' => 'center',
       'valign' => 'center',
@@ -41,7 +50,7 @@ For example, array:
       'bgcolor' => '0000FF',
   ],
   [
-      'text' => 'Текст зеленого цвета',
+      'text' => 'Green text', // "Текст красного цвета" on sample
       'cells' => '8,9',
       'align' => 'right',
       'valign' => 'bottom',
