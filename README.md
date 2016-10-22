@@ -64,3 +64,6 @@ Will be converted to HTML page like:
 ![Alt text](./images/grid-test-sample.png "Grid System sample provided from employer")
 
 > The resulting page must not contain any images. Everything must be implemented only by table / div elements and CSS styles.
+
+## Screenshots
+![Красивая картинка](./images/solution.png)
